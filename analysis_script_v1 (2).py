@@ -1,6 +1,6 @@
 import numpy as np
 
-def read_from_file(p_num): #this reads a single fine
+def read_from_file(p_num): #this reads a single file with DATA(P_NUM).txt as its name
     path = "Data/Data" + str(p_num) + ".txt"
     f = open(path, "r")
     f.readline() #firstline is always file start
